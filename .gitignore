@@ -1,0 +1,30 @@
+# Gradle files
+.gradle/
+build/
+**/build/
+
+# Android Studio / IntelliJ files
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+**/.cxx/
+.cxx/
+
+# Local configuration
+local.properties
+
+# Secrets and Keystores
+keystores/*
+!keystores/*.readme
+*.jks
+*.keystore
+*.p12
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Captures
+captures/
