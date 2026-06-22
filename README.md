@@ -32,8 +32,7 @@ VoiceJournal follows modern Android development practices with an **MVVM (Model-
 
 1.  **Permissions**: On first launch, grant Microphone and Storage permissions.
 2.  **Model Installation**:
-    - The app expects models to be placed in the internal storage (`/data/user/0/com.carmind.voicejournal/files/llm/`).
-    - Place your `whisper.bin` and Gemma `model.bin` files there.
+    - The app gives user the option to download STT and LLM models after the first install. User can choose to skip and import any whisper(*.bin) and LLM (*.bin) models
 3.  **Create an Entry**:
     - Tap and hold the **Mic Icon** to start recording.
     - Release the icon to finish recording.
@@ -43,6 +42,8 @@ VoiceJournal follows modern Android development practices with an **MVVM (Model-
 5.  **Review & Save**:
     - Review the generated transcript and summary.
     - Tap the **Checkmark (✓)** to save the entry to your history.
+6.  **Manual Entry**:
+    - User can add any entry manually and edit any entry which is generated.
 
 ## ⚠️ Limitations
 
